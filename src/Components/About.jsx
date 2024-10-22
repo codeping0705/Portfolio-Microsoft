@@ -1,52 +1,27 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
+
 
 import React from "react";
 
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
 import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
-/**
- * Sort description that expands on your title on the Home component.
- */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
+
+const description =
+  "A proactive and enthusiastic recent graduate, ready to contribute to a dynamic organization. I am actively seeking opportunities to utilize my skills and knowledge in a challenging environment while fostering the company’s growth and success. Driven by a strong desire to make a positive impact, I look forward to embarking on a journey of professional development and contributing to the organization’s overall success";
+
+
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web Designer",
+  "UI/UX Developer",
+  "FrontEnd Developer",
+  "Backend Developer",
+  "MERN Stack Developer",
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "Dynamic and motivated software developer with a Bachelor’s degree in Engineering and hands-on experience in both frontend and backend technologies. Proficient in designing and implementing web applications using React, Node.js, and MongoDB, with a strong emphasis on user experience and responsive design. Recognized for producing high-quality app wireframes during an internship, demonstrating a keen eye for detail and a commitment to excellence.Eager to join a forward-thinking organization where I can leverage my technical skills and innovative mindset to contribute to impactful projects. Passionate about collaborating with cross-functional teams to develop solutions that drive business success and enhance customer satisfaction. Committed to ongoing professional growth and looking forward to making meaningful contributions that support the company’s objectives.";
 const About = () => {
   return (
     <section className="padding" id="about">
